@@ -1,9 +1,14 @@
 from fastapi import FastAPI
 import uvicorn
 #from dblib.querydb import querydb
+from readapi import getjson
 
 app = FastAPI()
 
+@app.get("/events")
+async def getevents():
+    jsondata = getjson()
+    return jsondata
 
 @app.get("/")
 async def root():
