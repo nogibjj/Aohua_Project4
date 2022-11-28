@@ -6,3 +6,4 @@ fastapi
 uvicorn
 databricks
 requests
+bs4
