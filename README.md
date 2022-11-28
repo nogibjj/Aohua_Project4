@@ -7,4 +7,3 @@
 ```docker run -p 127.0.0.1:8080:8080 453781e79c1a```  
 ### build docker image and push to AWS ECR
 ```make build```
-
