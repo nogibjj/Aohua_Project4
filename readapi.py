@@ -33,7 +33,7 @@ def geteventsasjson(days, attribute, keyword):
         return result
 
 
-
+#get the current weather
 def getweather():
     # enter city name
     city = "durham"
