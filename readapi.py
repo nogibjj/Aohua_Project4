@@ -29,7 +29,6 @@ def geteventsasjson(days, attribute, keyword):
         result = []
         for dic in procdict:
             if keyword in dic[attribute]:
-                print("+++++++++++++++++++++add one++++++++++++++++++++++")
                 result.append(dic)
         return result
 
